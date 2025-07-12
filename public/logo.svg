@@ -1,0 +1,36 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="200" height="200" fill="#000"/>
+  
+  <!-- Creative A design -->
+  <g transform="translate(100, 100)">
+    <!-- Main A structure - larger scale -->
+    <path d="M -45 70 L 0 -70 L 45 70 Z" 
+          fill="none" 
+          stroke="#fff" 
+          stroke-width="6" 
+          stroke-linejoin="round" 
+          stroke-linecap="round"/>
+    
+    <!-- Crossbar with creative twist -->
+    <line x1="-27" y1="20" x2="27" y2="20" 
+          stroke="#fff" 
+          stroke-width="6" 
+          stroke-linecap="round"/>
+    
+    <!-- Creative geometric accent - triangle within - much bigger -->
+    <path d="M -20 20 L 0 -30 L 20 20 Z" 
+          fill="#fff" 
+          opacity="0.4"/>
+    
+    <!-- Subtle line details -->
+    <line x1="0" y1="-70" x2="0" y2="-55" 
+          stroke="#fff" 
+          stroke-width="4" 
+          stroke-linecap="round"/>
+    
+    <!-- Small geometric accent at base -->
+    <circle cx="-45" cy="70" r="3" fill="#fff" opacity="0.7"/>
+    <circle cx="45" cy="70" r="3" fill="#fff" opacity="0.7"/>
+  </g>
+</svg>
