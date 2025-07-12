@@ -10,7 +10,7 @@ import toast from "react-hot-toast";
 function App() {
   useEffect(() => {
     toast("Need a converting Website?", {
-      duration: 2000,
+      duration: 4000,
       icon: "💭",
     });
   }, []);
