@@ -23,7 +23,7 @@ function Experience() {
       <Project
         id="02"
         project="RANDDOM"
-        role="Software Developer"
+        role="Frontend Developer"
         description="Randdom is an AI-backed web application built to help creatives overcome character design blocks. Targeted at designers, illustrators, writers, and storytellers, the app generates unique characters complete with names, traits, and backstories — offering a creative spark when it's most needed."
         technologies={["REACT", "OPEN AI", "TAILWIND", "REACT_ROUTER"]}
         image={randdom}
@@ -43,7 +43,7 @@ function Experience() {
       <Project
         id="04"
         project="SHORTLY"
-        role="Software Developer"
+        role="Frontend Developer"
         description="Shortly is a responsive web app that allows users to shorten long, complex URLs into compact, shareable links — ideal for social media, messaging, and memory recall. Designed with a mobile-first mindset, the app delivers a fast, lightweight experience that makes link sharing effortless on any device."
         technologies={["REACT", "TAILWIND", "Url Shortener API",]}
         image={shortly}
