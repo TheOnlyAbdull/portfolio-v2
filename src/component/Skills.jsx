@@ -8,13 +8,13 @@ function Skills() {
         The technologies behind the magic include:
       </p>
       <div>
-        <div className="flex flex-wrap gap-4 px-6 mt-4  mx-auto">
+        <div className="flex flex-wrap gap-4 justify-center px-6 mt-4  mx-auto">
           <Technology>React</Technology>
           <Technology>JavaScript</Technology>
           <Technology>Tailwind CSS</Technology>
           <Technology>ReactQuery</Technology>
           <Technology>SupaBase</Technology>
-          <Technology>GSAP</Technology>
+          <Technology>GSAP(animation)</Technology>
           <Technology>HTML/CSS</Technology>
           <Technology>Git</Technology>
         </div>

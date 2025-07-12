@@ -4,9 +4,9 @@ import Button from "./Button";
 function Footer() {
   return (
     <div className=" mt-16">
-      <div className="border-2 p-2  text-center md:w-7/12 w-6/12 mx-auto rounded-lg">
+      <div className="border-2 p-2  text-center md:w-5/12 w-10/12 mx-auto rounded-lg">
         <p className="text-lg font-semibold text-white">Get in Touch</p>
-        <p className="text-sm px-4 md:w-7/12 mx-auto mb-4">
+        <p className="text-sm px-8 md:px-12 mx-auto mb-4">
           Feel free to reach out via email, to discuss projects, collaborations,
           or just to say hello!
         </p>

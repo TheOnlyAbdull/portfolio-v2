@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function Header() {
   return (
-    <div className="tranparent w-full font-plex text-gray-300 px-6 py-6 flex justify-between items-center md:px-16  ">
+    <div className="tranparent fixed bg-neutral-900  w-full font-plex text-gray-300 px-6 py-6 flex justify-between items-center md:px-16  ">
       <div className="text-2xl md:text-3xl flex gap-2 items-center">
         <span>=&gt;</span>
         <span>Abdullah.</span>
