@@ -7,7 +7,7 @@ import Project from "./Project";
 
 function Experience() {
   return (
-    <div className="px-6 mt-10 md:w-8/12 lg:w-7/12 mx-auto ">
+    <div className="px-2 mt-10 md:w-8/12 lg:w-7/12 mx-auto ">
       <h2 className="text-2xl text-white">Experience/Project</h2>
       <p className="text-sm">Some of my commitments include:</p>
       <Project
@@ -56,7 +56,7 @@ function Experience() {
         role="Software Developer"
         description="Quizzify is a responsive, user-friendly quiz application that allows individuals or study groups to test knowledge on specific topics in an engaging way. The app features personalized touches, such as dynamically displaying the user’s name throughout the interface, and provides immediate feedback through a point-based scoring system at the end of each quiz session."
         technologies={["HTML5", "CSS3", "JAVASCRIPT", ]}
-        image={freeketImg}
+        image={quizzify}
         liveUrl="https://quiziify.netlify.app/"
         gitHubUrl="https://github.com/TheOnlyAbdull/Q-and-A"
       />

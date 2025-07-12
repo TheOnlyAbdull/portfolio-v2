@@ -16,8 +16,8 @@ function Project({ id, project, role, description, technologies, image, liveUrl,
             {description} <span className="text-gray-500">{technologies.map((e)=> `#${e} `).reduce((prev, curr) => [prev, curr])}</span>
           </p>
           <div className="flex gap-4 mt-4">
-            <Button url={liveUrl}>Live</Button>
             <Button url={gitHubUrl}>GitHub</Button>
+            <Button url={liveUrl}>Live</Button>
           </div>
         </div>
       </div>

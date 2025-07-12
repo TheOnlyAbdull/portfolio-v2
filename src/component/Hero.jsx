@@ -2,7 +2,7 @@ import Links from "./Links";
 
 function Hero() {
   return (
-    <div className="px-6 pt-22 md:w-8/12 lg:w-7/12 mx-auto">
+    <div className="px-2 pt-22 md:w-8/12 lg:w-7/12 mx-auto">
       <p className="text-sm mb-6">
         <span className="border-b-2 pb-2">MEET THE</span> PROFESSIONAL
       </p>
