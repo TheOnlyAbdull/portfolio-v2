@@ -9,7 +9,7 @@ function Header() {
         <span>Abdullah.</span>
       </div>
       <div className="flex items-center gap-4 text-base">
-        <Button url="">Read CV</Button>
+        <Button url="https://drive.google.com/file/d/16RrcxX-Ry6xpz7n8eM95bKH5TCLGg4t3/view?usp=sharing">Read CV</Button>
         <p className="text-2xl cursor-pointer  hover:text-neutral-500 ">
           <CiLight />
         </p>
