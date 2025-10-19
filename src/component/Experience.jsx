@@ -35,27 +35,18 @@ function Experience() {
         project="NOTA"
         role="Software Developer"
         description="NOTA is a lightweight, user-friendly productivity app designed to help users organize and manage daily tasks across multiple categories — from work and errands to personal projects. With a personalized touch, it greets users by name and provides contextual awareness by tracking the current day, helping them stay focused and intentional."
-        technologies={["REACT", "TAILWIND"]}
+        technologies={["REACT", "CSS3"]}
         image={nota}
         liveUrl="https://theonlyabdull.github.io/nota/"
         gitHubUrl="https://github.com/TheOnlyAbdull/nota"
       />
+
       <Project
         id="04"
-        project="SHORTLY"
-        role="Frontend Developer"
-        description="Shortly is a responsive web app that allows users to shorten long, complex URLs into compact, shareable links — ideal for social media, messaging, and memory recall. Designed with a mobile-first mindset, the app delivers a fast, lightweight experience that makes link sharing effortless on any device."
-        technologies={["REACT", "TAILWIND", "Url Shortener API",]}
-        image={shortly}
-        liveUrl="https://theonlyabdull.github.io/Shortly/"
-        gitHubUrl="https://github.com/TheOnlyAbdull/Shortly"
-      />
-      <Project
-        id="05"
         project="QUIZZIFY"
         role="Software Developer"
         description="Quizzify is a responsive, user-friendly quiz application that allows individuals or study groups to test knowledge on specific topics in an engaging way. The app features personalized touches, such as dynamically displaying the user’s name throughout the interface, and provides immediate feedback through a point-based scoring system at the end of each quiz session."
-        technologies={["HTML5", "CSS3", "JAVASCRIPT", ]}
+        technologies={["HTML5", "CSS3", "JAVASCRIPT"]}
         image={quizzify}
         liveUrl="https://quiziify.netlify.app/"
         gitHubUrl="https://github.com/TheOnlyAbdull/Q-and-A"

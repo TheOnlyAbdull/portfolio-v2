@@ -9,13 +9,13 @@ function Skills() {
       </p>
       <div>
         <div className="flex flex-wrap gap-4 justify-center mt-4  mx-auto">
-          <Technology>React</Technology>
+          <Technology>ReactJs</Technology>
+          <Technology>Next.js</Technology>
+          <Technology>TypeScript</Technology>
           <Technology>JavaScript</Technology>
           <Technology>Tailwind CSS</Technology>
           <Technology>ReactQuery</Technology>
-          <Technology>SupaBase</Technology>
           <Technology>GSAP(animation)</Technology>
-          <Technology>HTML/CSS</Technology>
           <Technology>Git</Technology>
         </div>
       </div>
