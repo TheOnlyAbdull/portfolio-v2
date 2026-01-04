@@ -4,10 +4,14 @@ import Footer from "./component/Footer";
 import Header from "./component/header";
 import Hero from "./component/Hero";
 import Skills from "./component/Skills";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 
+
 function App() {
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
+
+
   useEffect(() => {
     toast("Need a converting Website?", {
       duration: 4000,
@@ -16,8 +20,8 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-neutral-900 font-plex text-gray-200">
-      <Header />
+    <div className={`bg-stone-50 text-neutral-900 dark:bg-neutral-900 font-plex dark:text-gray-200  ${isDarkTheme ? 'dark' : ''}`}>
+      <Header isDarkTheme={isDarkTheme} setIsDarkTheme={setIsDarkTheme} />
       <Hero />
       <Experience />
       <Skills />

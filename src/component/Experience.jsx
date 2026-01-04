@@ -7,8 +7,8 @@ import Project from "./Project";
 function Experience() {
   return (
     <div className="px-2 mt-10 md:w-8/12 lg:w-7/12 mx-auto ">
-      <h2 className="text-2xl text-white">Experience/Project</h2>
-      <p className="text-sm">Some of my commitments include:</p>
+      <h2 className="text-2xl text-neutral-900 dark:text-white">Experience/Project</h2>
+      <p className="text-sm text-neutral-600">Some of my commitments include:</p>
       <Project
         id="01"
         project="FREEKET"
@@ -44,7 +44,7 @@ function Experience() {
         id="04"
         project="BICCAS"
         role="Frontend Developer"
-        description="Biccas is a high-performance productivity landing page meticulously crafted from a Figma design. It serves as a gateway for the Taskio Dashboard, focusing on clean UI/UX to help teams organize workflows. The project highlights precise design-to-code implementation."
+        description="Biccas is a high-performance productivity landing page meticulously crafted from a Figma design. focusing on clean UI/UX to help teams organize workflows. The project highlights precise design-to-code implementation."
         technologies={["REACT", "Tailwind CSS", "Figma"]}
         image={biccass}
         liveUrl="https://biccass.netlify.app/"
