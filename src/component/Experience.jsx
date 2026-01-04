@@ -1,8 +1,7 @@
 import freeketImg from "../assets/ProjectImage/freeket.png";
 import randdom from "../assets/ProjectImage/random.png";
 import nota from "../assets/ProjectImage/nota.png";
-import quizzify from "../assets/ProjectImage/quizzify.png";
-import shortly from "../assets/ProjectImage/shortly.png";
+import biccass from "../assets/ProjectImage/biccas.png";
 import Project from "./Project";
 
 function Experience() {
@@ -43,13 +42,13 @@ function Experience() {
 
       <Project
         id="04"
-        project="QUIZZIFY"
-        role="Software Developer"
-        description="Quizzify is a responsive, user-friendly quiz application that allows individuals or study groups to test knowledge on specific topics in an engaging way. The app features personalized touches, such as dynamically displaying the user’s name throughout the interface, and provides immediate feedback through a point-based scoring system at the end of each quiz session."
-        technologies={["HTML5", "CSS3", "JAVASCRIPT"]}
-        image={quizzify}
-        liveUrl="https://quiziify.netlify.app/"
-        gitHubUrl="https://github.com/TheOnlyAbdull/Q-and-A"
+        project="BICCAS"
+        role="Frontend Developer"
+        description="Biccas is a high-performance productivity landing page meticulously crafted from a Figma design. It serves as a gateway for the Taskio Dashboard, focusing on clean UI/UX to help teams organize workflows. The project highlights precise design-to-code implementation."
+        technologies={["REACT", "Tailwind CSS", "Figma"]}
+        image={biccass}
+        liveUrl="https://biccass.netlify.app/"
+        gitHubUrl="https://github.com/TheOnlyAbdull/BICCAS"
       />
     </div>
   );
