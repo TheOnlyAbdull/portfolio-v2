@@ -29,7 +29,7 @@ function Hero() {
         <p>
           I thrive on collaborating with visionaries to bring their concepts to
           life, creating user-centric experiences that genuinely make a
-          difference.
+          difference. <span className="dark:text-white text-black">#I'm a fan of HealthCare</span>
         </p>
       </div>
     </div>
