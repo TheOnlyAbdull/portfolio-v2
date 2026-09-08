@@ -10,7 +10,7 @@ function Hero() {
         PROFESSIONAL
       </p>
 
-      <h1 className="text-4xl mb-1 font-bold text-neutral-900 dark:text-white">
+      <h1 className="text-[2.2rem] mb-1 font-bold text-neutral-900 dark:text-white">
         Abdullah Salaudeen
       </h1>
 
@@ -22,14 +22,18 @@ function Hero() {
 
       <div className="text-base leading-6 flex flex-col gap-4 text-neutral-700 dark:text-gray-300">
         <p>
-          I'm a Frontend Developer driven by the desire to solve complex
-          problems and build impactful solutions. With a focus on creating
-          stunning, user-friendly web experiences.
+          I'm a Frontend Developer currently working with early-stage startups,
+          solving complex problems and building, stunning, user-friendly web
+          experiences each day.
         </p>
         <p>
-          I thrive on collaborating with visionaries to bring their concepts to
-          life, creating user-centric experiences that genuinely make a
-          difference. <span className="dark:text-white text-black">#I'm a fan of HealthCare</span>
+          I collaborate closely with founders and startups to bring their vision
+          to life, building user-centric experiences that genuinely make a
+          difference
+          <span className="dark:text-white text-black">
+            {" "}
+            #open to new startup partnership.
+          </span>
         </p>
       </div>
     </div>
