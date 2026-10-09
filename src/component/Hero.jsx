@@ -12,13 +12,13 @@ function Hero() {
         Abdullah Salaudeen
       </h1>
 
-      <h2 className="text-[1.375rem] md:text-2xl mb-6 text-neutral-700 dark:text-white">
+      <h2 className="text-[1.375rem] md:text-2xl mb-4 text-neutral-700 dark:text-white">
         The Frontend Developer
       </h2>
 
       <Links />
 
-      <div className="text-base leading-6 flex flex-col gap-4 text-neutral-700 dark:text-gray-300">
+      <div className="text-sm md:text-base leading-6 flex flex-col gap-4 text-neutral-700 dark:text-gray-300">
         <p>
           I'm a Frontend Developer currently working with early-stage startups,
           solving complex problems and building, stunning, user-friendly web

@@ -8,7 +8,7 @@ import {
 import { MdEmail } from "react-icons/md";
 function Links() {
   return (
-    <div className="flex gap-4 text-2xl my-6 cursor-pointer">
+    <div className="flex gap-4 text-2xl my-4 cursor-pointer">
       <p>
         <a href="https://www.linkedin.com/in/abdullahi-salaudeen-08392a252" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
