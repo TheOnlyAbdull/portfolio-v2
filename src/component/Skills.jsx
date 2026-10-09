@@ -2,10 +2,10 @@ import Technology from "./Technology";
 
 function Skills() {
   return (
-  <div className="md:w-8/12 lg:w-7/12 mx-auto mt-10 px-2 text-neutral-800 dark:text-gray-300">
-    <p className="text-2xl font-semibold text-neutral-900 dark:text-white">
+  <section id="skills" aria-labelledby="skills-title" data-reveal className="md:w-8/12 lg:w-7/12 mx-auto mt-10 px-2 text-neutral-800 dark:text-gray-300">
+    <h2 id="skills-title" className="text-2xl font-semibold text-neutral-900 dark:text-white">
       Skills
-    </p>
+    </h2>
     <p className="text-sm mx-auto text-neutral-600 dark:text-gray-400">
       The technologies behind the magic include:
     </p>
@@ -22,7 +22,7 @@ function Skills() {
         <Technology>Git</Technology>
       </div>
     </div>
-  </div>
+  </section>
 );
 }
 

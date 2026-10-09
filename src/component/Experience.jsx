@@ -6,9 +6,9 @@ import Project from "./Project";
 
 function Experience() {
   return (
-    <div className="px-2 mt-10 md:w-8/12 lg:w-7/12 mx-auto ">
-      <h2 className="text-2xl text-neutral-900 dark:text-white">Experience/Project</h2>
-      <p className="text-sm text-neutral-600">Some of my commitments include:</p>
+    <section id="projects" aria-labelledby="projects-title" data-reveal className="px-2 mt-10 md:w-8/12 lg:w-7/12 mx-auto ">
+      <h2 id="projects-title" className="text-2xl text-neutral-900 dark:text-white">Selected projects</h2>
+      <p className="text-sm text-neutral-600 dark:text-gray-400">Some of my commitments include:</p>
       <Project
         id="01"
         project="FREEKET"
@@ -50,7 +50,7 @@ function Experience() {
         liveUrl="https://biccass.netlify.app/"
         gitHubUrl="https://github.com/TheOnlyAbdull/BICCAS"
       />
-    </div>
+    </section>
   );
 }
 
